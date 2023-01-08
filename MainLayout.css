@@ -1,0 +1,96 @@
+﻿body {
+    background-color: #f2f3f2;
+    height: 100%;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    padding-bottom: 10%;
+}
+
+.header {
+    width: 100%;
+    background-color: #141115;
+    color: white;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.headerText {
+    position: relative;
+    top: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.game {
+    position: relative;
+    top: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.WebsiteText {
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: left;
+}
+
+    .WebsiteText h1{
+        padding-top: 5%;
+    }
+
+.imageMe {
+    border: 1px solid black;
+    float: right;
+}
+
+    .imageMe img {
+        width: 250px;
+        height: 450px;
+    }
+
+.imageGame {
+    float: left;
+}
+
+    .imageGame img {
+        width: 650px;
+        height: 350px;
+    }
+
+.footer {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    background-color: #141115;
+    color: white;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Geobutton {
+    background-color: #f2f3f2;
+    color: black;
+    border: 2px solid #141115;
+}
+
+    .Geobutton:hover {
+        background-color: #141115;
+        color: white;
+    }

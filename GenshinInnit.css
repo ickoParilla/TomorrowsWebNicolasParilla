@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+}
+
+p {
+    color: white;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+.Thumbnail {
+    display: flex;
+    margin: 0% 15%;
+    margin-top: 3%;
+}
+.Description h1{
+    margin-left: 2%;
+    font-size: 65px;
+}
+.Description h2{
+    margin-left: 2%;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.Description p {
+    margin-left: 2%;
+    text-align: justify;
+    letter-spacing: 2px;
+    padding-right: 2%;
+    font-size: 18px;
+}
+
+.Thumbnail img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header img {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 120px;
+    height: 60px;
+}
+
+.Headings h1{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.Headings{
+    background-color: rgb(93, 200, 250);
+    display: flex;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    background-color: rgba(255, 255, 255, 0.415);
+    border-radius: 5px;
+}
+.navigation ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.flickity-page-dots .dot {
+    width: 5px;
+    height: 5px;
+    opacity: 0.5;
+    border: 1px solid white;
+}
+.flickity-page-dots .dot.is-selected {
+    background: white;
+}
+.container-slides {
+    margin-top: 75px;
+}
+
+.carousel-cell {
+    margin: 5px;
+}
+.cell2 {
+    margin: 0% 15%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Thumbnail {
+        display: flex;
+        margin: 0% 10%;
+        margin-top: 3%;
+    }
+    .cell2 {
+        margin: 0% 10%;
+    }
+  }
+@media only screen and (max-width: 1028px) {
+    .Thumbnail {
+        display: flex;
+        margin: 0% 10%;
+        margin-top: 3%;
+    }
+    .cell2 {
+        margin: 0% 10%;
+    }
+  }
+ @media only screen and (max-width: 800px) {    
+    .Thumbnail {
+        display: flex;
+        margin: 0% 5%;
+        margin-top: 3%;
+    }
+    .cell2 {
+        margin: 0% 5%;
+    }
+  } 
+@media only screen and (max-width: 600px) {    
+    .cell2 {
+        margin: 0% 1%;
+    }
+    .Thumbnail {
+        display: flex;
+        margin: 0% 1%;
+        margin-top: 3%;
+    }
+    .Regions p {
+        color: white;
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .Regions h1 {
+        font-size: 20px;
+        color: white;
+    }
+    .Regions h2 {
+        color: white;
+    }
+    .Regions h3 {
+        color: white;
+    }
+  } 
